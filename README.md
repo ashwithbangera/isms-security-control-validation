@@ -1,24 +1,40 @@
-ISMS Web Application Security Control Validation
+# 🔐 ISMS Web Application Security Control Validation
 
-📌 Overview
+## 📌 Overview
 
-This project demonstrates ISMS-based security control validation aligned with ISO/IEC 27001.
+Performed ISMS-based security control validation on a vulnerable web application aligned with ISO/IEC 27001.
 
-🎯 Scope
-Target: Altoro Mutual
-Controls Tested:
-Access Control
-Encryption
-Asset Management
-🔍 Key Findings
-Weak authentication (no account lockout)
-Lack of HTTPS (credentials exposed)
-Poor asset visibility
-⚠️ Risk Level
+---
 
-High
+## 🌐 Target
 
-📄 Report
+Altoro Mutual (http://testfire.net)
 
-👉 See full report:
+---
+
+## 🔍 Scope
+
+* Access Control
+* Data Protection (Encryption)
+* Asset Management
+* Risk Assessment
+
+---
+
+## 🔐 Key Findings
+
+* No account lockout → Weak authentication
+* No HTTPS → Credentials exposed
+* Poor asset visibility
+
+---
+
+
+---
+
+## 📄 Report
+
 isms-webapp-audit-report.pdf
+
+---
+
